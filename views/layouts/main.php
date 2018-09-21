@@ -3,10 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use backend\assets\AppAsset;
-use backend\assets\PluginAsset;
-use backend\assets\FontAsset;
-use backend\assets\HeadAsset;
+use synamen\yii2tabler\assets\AppAsset;
 
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
@@ -15,9 +12,6 @@ use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
 AppAsset::register($this);
-PluginAsset::register($this);
-FontAsset::register($this);
-HeadAsset::register($this);
 
 ?>
 <?php $this->beginPage() ?>
