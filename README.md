@@ -21,6 +21,9 @@ synamen/yii2-tabler-theme": "~1.0"
 
 to the require section of your  `composer.json`  file.
 
-## Usage
-Copy views folder from vendor/synamen/views  and paste into your app views folder
+#Usage
+All you need to to is copy views folder from vendor/synamen/views  and paste into your app views folder
 
+or with command
+
+cp -R vendor/synamen/yii2-tabler-theme/views/* backend/views/
