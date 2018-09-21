@@ -25,8 +25,8 @@ class ThemeAsset extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\web\YiiAsset',
-        'synamen\yii2-tabler-theme\HeadAsset',
-        'synamen\yii2-tabler-theme\FontAsset',
-        'synamen\yii2-tabler-theme\PluginAsset'
+        'synamen\yii2-tabler-theme\assets\HeadAsset',
+        'synamen\yii2-tabler-theme\assets\FontAsset',
+        'synamen\yii2-tabler-theme\assets\PluginAsset'
     ];
 }

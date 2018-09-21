@@ -12,6 +12,6 @@ class AppAsset extends AssetBundle
 {
 
     public $depends = [
-        'synamen\yii2-tabler-theme\ThemeAsset',
+        'synamen\yii2-tabler-theme\assets\ThemeAsset',
     ];
 }

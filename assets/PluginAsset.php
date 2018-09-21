@@ -60,8 +60,5 @@ class PluginAsset extends AssetBundle
         'plugins/prismjs/js/prism.pack.js',
         
     ];
-    public $depends = [
-        'backend\assets\AppAsset',
-        //'yii\bootstrap\BootstrapAsset',
-    ];
+
 }
