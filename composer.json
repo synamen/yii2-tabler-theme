@@ -1,0 +1,32 @@
+{
+    "name": "synamen/yii2-tabler-theme",
+    "description": "Free Yii2 admin template for backend",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","backend","bootsprap4","admin","tabler","theme","yii2 tabler","yii2 admin theme"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Synamen",
+        "email": "info@synamen.com",
+        "homepage": "https://github.com/synamen",
+        "role": "Creator"
+      }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "yiisoft/yii2": "~2.0.0",
+      "rmrevin/yii2-fontawesome": "~2.0",
+      "bower-asset/gentelella": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "yiister\\gentelella\\": ""
+      }
+    },
+    "extra": {
+      "asset-installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
+    }
+}
