@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class FontAsset extends AssetBundle
 {
-    public $sourcePath = '@synamen/yii2-tabler-theme/dist/';
+    public $sourcePath = '@synamen/yii2tabler/dist/';
     
     public $css = [
         'fonts/feather/feather-webfont.eot',

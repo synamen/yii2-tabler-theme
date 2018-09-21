@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class PluginAsset extends AssetBundle
 {
-    public $sourcePath = '@synamen/yii2-tabler-theme/dist/';
+    public $sourcePath = '@synamen/yii2tabler/dist/';
 
     public $css = [
         'plugins/charts-c3/plugin.css',
