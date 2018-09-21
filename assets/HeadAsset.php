@@ -1,6 +1,6 @@
 <?php
 
-namespace synamen\Yii2TablerTheme\assets;
+namespace synamen\yii2tabler\assets;
 
 
 use yii\web\AssetBundle;
